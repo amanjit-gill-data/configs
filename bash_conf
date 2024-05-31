@@ -17,10 +17,11 @@ export GIT_PS1_SHOWUNTRACKEDFILES=1
 export PATH="$PATH:/opt/bin"
 
 # run pluggie from anywhere in file system
-alias pluggie="~/Projects/nvim-pluggie/pluggie.sh"
+alias pluggie="~/projects/nvim-pluggie/pluggie.sh"
 
-# navigate to nvim config dir
+# navigate to config dirs
 alias nvc="cd ~/.config/nvim"
+alias confs="cd ~/.config/my-configs"
 
 # prevent pycache creation
 export PYTHONDONTWRITEBYTECODE=1
