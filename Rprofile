@@ -1,12 +1,12 @@
 # CREATED BY AMANJIT to change location for R user library
 # 
 # R_LIBS_USER defaults to the form /home/username/R/x86_64-pc-linux-gnu-library/version
-# e.g. /home/ag/R/x86_64-pc-linux-gnu-library/4.4
+# e.g. /home/me/R/x86_64-pc-linux-gnu-library/4.4
 # but I prefer a simpler path
 # 
 # this config runs when R starts, and makes R_LIBS_USER take the form:
 # /home/username/R_user_libs/version
-# e.g. /home/ag/R_user_libs/4.4.0
+# e.g. /home/me/R_user_libs/4.4.0
 # as is normal, this retains a different user lib for each version of R
 
 # obtain user and version values that are set by R when it starts

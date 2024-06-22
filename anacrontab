@@ -1,0 +1,6 @@
+SHELL=/usr/bin/bash
+
+# period  delay   job-id          script
+1         6       software.list   $HOME/bin/software_lists.sh
+1         7       cloud.backup    $HOME/bin/cloud_backup.sh 
+
