@@ -1,6 +1,9 @@
 SHELL=/usr/bin/bash
 
+# period: how often job needs to be done, in days 
+# delay: if job is due, delay its start, in minutes
+# job-id: anything I like 
+
 # period  delay   job-id              script
-1         1       software.list       $HOME/bin/software_lists.sh 
-1         2       cloud.backup        $HOME/bin/cloud_backup.sh
+1         0       software.list       $HOME/bin/software_lists.sh >> $HOME/.backup/anacron_log.txt 2>&1
 
